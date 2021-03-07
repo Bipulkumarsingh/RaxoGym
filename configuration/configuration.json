@@ -1,0 +1,21 @@
+{
+    "postgres": {
+              "driver": "postgres",
+              "host": "127.0.0.1",
+              "password": "<password>",
+              "port": 5432,
+              "database": "raxogym",
+              "user": "<user>"
+    },
+    "sqlite": {
+              "driver": "sqlite",
+              "database": "base.db"
+    },
+  "mysql": {
+          "driver": "mysql",
+          "host": "127.0.0.1",
+          "database": "<database>",
+          "user": "<user>",
+          "password": "<password>"
+  }
+}
